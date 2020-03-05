@@ -1,0 +1,7 @@
+FP Adder: 4, Yes
+FP Multiplier: 6, Yes
+FP divider: 20, No
+Main memory: 5, 2
+Cache: 1
+Instruction Cache: 2, 8, 1
+Data Cache: 16, 8, 4, LRU

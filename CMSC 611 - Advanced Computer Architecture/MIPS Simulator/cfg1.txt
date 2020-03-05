@@ -1,0 +1,5 @@
+FP Adder: 4, Yes
+FP Multiplier: 4, Yes
+FP divider: 20, No
+Integer: 1, Yes
+Main memory: 1, 2

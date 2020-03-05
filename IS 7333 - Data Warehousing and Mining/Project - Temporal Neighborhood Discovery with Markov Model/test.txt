@@ -1,0 +1,45 @@
+
+--------------------------------------------------------------------------------------------------------------------------
+Merging corresponding Bins (1, 2) with Ids (1, 2)
+Size of bin before adding data: 100
+Size of bin after adding data: 200
+Number of Bins before deleting: 10
+Deleting Bin 2
+Number of Bins after deleting: 9
+--------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+Merging corresponding Bins (2, 3) with Ids (3, 4)
+Size of bin before adding data: 100
+Size of bin after adding data: 200
+Number of Bins before deleting: 9
+Deleting Bin 3
+Number of Bins after deleting: 8
+--------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+Merging corresponding Bins (3, 4) with Ids (5, 6)
+Size of bin before adding data: 100
+Size of bin after adding data: 200
+Number of Bins before deleting: 8
+Deleting Bin 4
+Number of Bins after deleting: 7
+--------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+Merging corresponding Bins (4, 5) with Ids (7, 8)
+Size of bin before adding data: 100
+Size of bin after adding data: 200
+Number of Bins before deleting: 7
+Deleting Bin 5
+Number of Bins after deleting: 6
+--------------------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+Merging corresponding Bins (4, 5) with Ids (7, 9)
+Size of bin before adding data: 200
+Size of bin after adding data: 300
+Number of Bins before deleting: 6
+Deleting Bin 5
+Number of Bins after deleting: 5
+--------------------------------------------------------------------------------------------------------------------------

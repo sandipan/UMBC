@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE> Calling Asynchronous WebMethods </TITLE>
+<script language="JavaScript"> 
+<!--
+ 
+function callWebMethod()
+{
+	document.result.callWebMethod('a_g', 'a_i', 'a_r', document.getElementById('algoName').selectedIndex, document.website.algoInput.value);
+}
+ 
+//-->
+</script>
+</HEAD>
+<BODY>
+<APPLET NAME="result" CODE="WebApplet.class" WIDTH=500 HEIGHT=400>
+<PARAM name="Width" value="500">
+<PARAM name="Height" value="400">
+</APPLET>
+<FORM name=website>
+<h1>Select Distributed Algorithm</h1> 
+Name: &nbsp;&nbsp;
+<SELECT id=algoName>
+<OPTION value = "1"> E-State Monitoring </OPTION>
+<OPTION value = "2"> Text Classification </OPTION>
+</SELECT>
+&nbsp;&nbsp;&nbsp;&nbsp;
+Input: &nbsp;&nbsp;
+<input type=TEXT name=algoInput>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type=BUTTON value="Run Algorithm" onClick="callWebMethod();">
+</FORM>
+</BODY>
+</HTML>
+
